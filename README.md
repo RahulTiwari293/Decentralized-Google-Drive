@@ -34,16 +34,16 @@ npx hardhat run Scripts/DeployOld.js --network localhost`
 ```
 
 
-### MetaMask Setup 🔑
+## MetaMask Setup 🔑
 1. Add Localhost Network
    
 Open MetaMask and go to the Network dropdown → Add a network manually.
 Enter the following details:
 
-## Network Name: Localhost
-## RPC URL: http://127.0.0.1:8545
-## Chain ID: 31337 (Hardhat default)
-## Currency Symbol: ETH
+### Network Name: Localhost
+### RPC URL: http://127.0.0.1:8545
+### Chain ID: 31337 (Hardhat default)
+### Currency Symbol: ETH
 Click Save.
 
 2. Import Test Accounts
