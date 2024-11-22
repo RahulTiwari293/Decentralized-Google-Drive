@@ -56,7 +56,7 @@ Open Terminal and Run
 
 `npx hardhat node` to Run Hardhat Local Blockchain
 
-Now Deploy Our Contarc to Localhost
+Now Deploy Our Contract to Localhost
 
 ```js
 npx hardhat run Scripts/DeployOld.js --network localhost`
