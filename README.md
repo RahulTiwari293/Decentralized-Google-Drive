@@ -33,6 +33,26 @@ Now Deploy Our Contarc to Localhost
 npx hardhat run Scripts/DeployOld.js --network localhost`
 ```
 
+
+### MetaMask Setup 🔑
+1. Add Localhost Network
+   
+Open MetaMask and go to the Network dropdown → Add a network manually.
+Enter the following details:
+
+## Network Name: Localhost
+## RPC URL: http://127.0.0.1:8545
+## Chain ID: 31337 (Hardhat default)
+## Currency Symbol: ETH
+Click Save.
+
+2. Import Test Accounts
+   
+Copy a private key from the output of npx hardhat node.
+Open MetaMask, go to Account Options → Import Account.
+Paste the private key and click Import.
+
+
 Now Copy The Address of This Deployed Smart Contract. This Will Help Us When We Be Deploying out Contarct
 
 Now Run Vite App. Do Configuration in Your React App to Connect With Metamask With Ethers JS 
