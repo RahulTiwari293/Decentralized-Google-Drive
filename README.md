@@ -36,6 +36,7 @@ No single point of failure or control enhances reliability.
     npm install ethereum-waffle
     npm install ethers
     npm install hardhat
+    npm i
 ```
 
 And Dont Forget to Add Below Lines in hardhat.config.js
