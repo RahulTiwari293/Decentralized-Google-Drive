@@ -1,3 +1,10 @@
+# Pre Requisites
+- Node.js (lastest version)
+- IDE (VS Code Recommended)
+- Metamask Extension
+- Solidity (8.0.0 or above)
+  
+
 A Decentralized File System typically refers to a cloud storage system that operates on a decentralized infrastructure rather than traditional, centralized servers like Google Drive. This kind of storage is often built on blockchain or peer-to-peer (P2P) networks. Here's a detailed description:
 
 ### Key Features:
